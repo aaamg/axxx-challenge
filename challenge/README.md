@@ -2,16 +2,18 @@ Hi there! I work mainly on frontends (90% of my time) and rarely do much backend
 
 *Read this before starting please*
 Running program on UNIX/MAC: 
-Had to get this running on my home windows pc (we use windows at my current job, exuse this) so I updated the "build:server" script & tried using the latest rimraf package. 
+Had to get this running on my home windows pc (we use windows at my current job, excuse this) so I updated the "build:server" script & tried using the latest rimraf package. 
 rm -rf is a UNIX command so will not work on windows. Made a fix that works for me for now.
 
 If I had more time I would add a "start:unix" script to go off of "build:server:unix" since my current implementation is windows only. 
 I have a mac to test this but not enough time. 
 
 # Overview
+
 People Directory server app.
 
 **KNOWN ISSUES**
+
 Add UNIX start script.
 
 Fastify / helmet / CORS version mismatch (no time to fix) -- left commented code in as this should be finished. 
